@@ -6,6 +6,29 @@ body{
     overflow: scroll;
     background-repeat: no-repeat;
 }
+p{
+    color: aqua;
+    margin-left: 63px;
+}
+#eee{
+    color: hsl(332, 96%, 51%);
+    font-size: 22px;
+    margin-top: -10px ;
+    margin-left: 18px;
+    position: absolute;
+    left: 0;
+    padding-top:20px;
+
+}
+#zzz{
+    font-size: 30px;
+    margin-top: 365px ;
+    margin-left: 130px;
+    position: absolute;
+    left: 0;
+    padding-top:20px;
+
+}
 
 body {
     font-family: Arial, sans-serif;
