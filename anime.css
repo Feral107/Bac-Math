@@ -48,6 +48,17 @@ nav {
     justify-content: center;
 
 }
+footer {
+    background: #222;
+    color: aqua;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: hsl(332, 96%, 51%);
+}
 
 nav a {
     color: rgba(87, 183, 238, 0.829);
