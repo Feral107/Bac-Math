@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.7;
+    background-size: cover;
+    background-image: url("back.jpg");
+    overflow: scroll;
+    background-repeat: no-repeat;
+}
+span ul{
+    margin:1%;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    .content {
+        padding: 15px;
+    }
+}
+    
+header{
+    color: aqua;
+    text-align: center;
+    border-bottom: 3px solid hsl(332, 96%, 51%);
+    border-radius: 15%;
+    font-size: 25px;
+}
+header span{
+    color: hsl(332, 96%, 51%) ;
+}
+section{
+    margin-left: 30%;
+}
+h1{
+    font-size: 40px;
+}
+span{
+     font-size: 20px;
+}
+h1 , span li{
+    list-style: none;
+}
+footer {
+    background: #222;
+    color: aqua;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: hsl(332, 96%, 51%);
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+nav{
+    max-width: fit-content;
+    display: flex;
+    padding: 2% 3%;
+    border-bottom: 2px solid rgb(11, 226, 255);
+    border-radius: 15%;
+    position: relative;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    gap: 1.25rem;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fefefe;
+    position: relative;
+    transition: color 0.25s;
+    
+}
+
+.link:hover{
+    color: black;
+}
+.link::after{
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: #fefefe;
+    scale: 1 0;
+    z-index: -1;
+    transition: 0.45s;
+    border-radius:15% ;
+}
+.link:hover::after{
+    scale: 1 1;
+}
+#d1{
+    float: left;
+
+}
