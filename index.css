@@ -15,7 +15,7 @@
         background-repeat: no-repeat;
     }
     aside img {margin-left: 30%;
-        margin-top: -37%;
+        margin-top: -32%;
         left: 0;
         height:150px;
         width:150px;
@@ -196,7 +196,7 @@
         background-repeat: no-repeat;
     }
     aside img {margin-left: 5%;
-        margin-top: -51%;
+        margin-top: -46%;
         left: 0;
         height:180px;
         width:180px;
@@ -379,7 +379,7 @@
         background-repeat: no-repeat;
     }
     aside img {margin-left: 5%;
-        margin-top: -54%;
+        margin-top: -49%;
         left: 0;
         height:250px;
         width:250px;
@@ -602,9 +602,9 @@
     
     }
     #zzz{
+        margin-top: -1%;
         font-size: 30px;
         position: absolute;
-        left: 0;
         padding-top:20px;
     
     }
