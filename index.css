@@ -49,13 +49,13 @@ p{
 #eee{
     color: hsl(332, 96%, 51%);
     font-size: 11px;
-    margin-left: 50%;
+    margin-left: 40%;
     position: absolute;
     padding-top:20px;
 
 }
 #zzz{
-    margin-left: 50%;
+    margin-left: 40.5%;
     font-size: 15px;
     position: absolute;
     padding-top:20px;
