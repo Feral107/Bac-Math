@@ -81,6 +81,7 @@ p{
 }
    
 header{
+	height:35px;
     color: aqua;
     text-align: center;
     border-bottom: 3px solid hsl(332, 96%, 51%);
