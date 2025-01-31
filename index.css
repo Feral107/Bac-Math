@@ -1,196 +1,547 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-	margin-left:2px;
-}
-body{
-	font-family: 'Poppins', sans-serif;
-	line-height: 1.7;
-    background-size: cover;
-    background-image: url("back.jpg");
-    overflow: scroll;
-    background-repeat: no-repeat;
-}
-aside img {
-	margin-left: 30%;
-    margin-top: -33%;
-    left: 0;
-	height:150px;
-	width:150px;
-}
-html, body {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.content {
-    flex: 1;
-    display: flex;
-    flex-direction:column;
-    justify-content: center; /* Centre verticalement */
-    align-items: flex-start; /* Garde l'image à gauche */
-    padding: 20px;
-  
-}
-
-
-.content span {
-    color: aqua; /* Applique la couleur aqua au texte "Bac" */
-    font-weight: bold; /* Optionnel : rend le texte plus visible */
-}
-#eee , #zzz {
-    margin-top: -1.5%;
-}
-
-p{
-    color: aqua;
-}
-#eee{
-    color: hsl(332, 96%, 51%);
-    font-size: 14px;
-    margin-left: 26%;
-    position: absolute;
-    padding-top:20px;
-
-}
-#zzz{
-    margin-left: 24%;
-    font-size: 18px;
-    position: absolute;
-    padding-top:20px;
-
-}
-@media (max-width: 600px) {
-    header {
-        padding: 15px;
+@media (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        margin-left:2px;
     }
-
-    .content {
-        padding: 10px;
-    }
-
-    footer {
-        font-size: 14px;
-    }
-}
-@media (min-width: 601px) and (max-width: 1024px) {
-    .content {
-        padding: 15px;
-    }
-}
-   
-header{
-	height:60px;
-    color: aqua;
-    text-align: center;
-    border-bottom: 3px solid hsl(332, 96%, 51%);
-    border-radius: 15%;
-    font-size: 25px;
-}
-header span{
-    color: hsl(332, 96%, 51%) ;
-}
-
-h1{
-    font-size: 25px;
-}
-span{
-     font-size: 20px;
-}
-h1 , span li{
-    list-style: none;
-}
-#d1 span , #d1 ul{
-    font-size: 15px;
-
-}
-div ul , div li{
-    font-size: 15px;
-}
-
-footer {
-    background: #222;
-    color: aqua;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: hsl(332, 96%, 51%);
-}
-::-webkit-scrollbar {
-    width: 10px;
-}
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb {
-    background: #888;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-#p1{
-  padding-top: 20px;
-  color: #fefefe;
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-nav{
-    max-width:600px;
-    display: flex;
-    border-bottom: 2px solid rgb(11, 226, 255);
-    border-radius: 15%;
-    position: relative;
-    width: 100%;
-	
-}
-nav ul{
-	margin-top:2%;
-    display: flex;
-    list-style: none;
-	
-}
-
-.link{
-    text-decoration: none;
-    padding: 0.2rem 0.3rem;
-    font-size: 11px;
-    font-weight: 600;
-    color: #fefefe;
-    position: relative;
-    transition: color 0.25s;
     
-}
+    body{
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.7;
+        background-size: cover;
+        background-image: url("back.jpg");
+        overflow: scroll;
+        background-repeat: no-repeat;
+    }
+    aside img {margin-left: 30%;
+        margin-top: -40%;
+        left: 0;
+        height:150px;
+        width:150px;
+    }
+    html, body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        flex: 1;
+        display: flex;
+        flex-direction:column;
+        justify-content: center; /* Centre verticalement */
+        align-items: flex-start; /* Garde l'image à gauche */
+        padding: 20px;
+      
+    }
+    
+    
+    .content span {
+        margin-left: 19%;
+        font-size: 15px;
+        color: aqua; /* Applique la couleur aqua au texte "Bac" */
+        font-weight: bold; /* Optionnel : rend le texte plus visible */
+    }
+    #eee , #zzz {
+        margin-top: -4%;
+    }
+    
+    p{
+        color: aqua;
+    }
+    #eee{
+        color: hsl(332, 96%, 51%);
+        font-size: 14px;
+        margin-left: 38.5%;
+        position: absolute;
+        padding-top:20px;
+    
+    }
+    #zzz{
+        font-size: 18px;
+        margin-left: 35%;
+        position: absolute;
+        padding-top:21px;
+    
+    }
+       
+    header{
+        height: 45px;
+        margin: 0;
+        padding: 0;
+        color: aqua;
+        text-align: center;
+        border-bottom: 3px solid hsl(332, 96%, 51%);
+        border-radius: 15%;
+        font-size: 25px;
+        
+    }
+    header span{
+        color: hsl(332, 96%, 51%) ;
+    }
+    
+    h1{
+        font-size: 25px;
+    }
+    span{
+         font-size: 20px;
+    }
+    h1 , span li{
+        list-style: none;
+    }
+    #d1 span , #d1 ul{
+        font-size: 15px;
+    
+    }
+    div ul , div li{
+        font-size: 15px;
+    }
+    
+    footer {
+        background: #222;
+        color: aqua;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: hsl(332, 96%, 51%);
+    }
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+    
+    #p1{
+      padding-top: 20px;
+      color: #fefefe;
+      font-size: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    
+    nav{
+        max-width:600px;
+        display: flex;
+        border-bottom: 2px solid rgb(11, 226, 255);
+        border-radius: 15%;
+        position: relative;
+        width: 100%;
+        
+    }
+    nav ul{
+        margin-top:2%;
+        margin-bottom: 5px;
+        display: flex;
+        list-style: none;
+        
+    }
+    
+    .link{
+        text-decoration: none;
+        padding: 0rem 0.1rem;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fefefe;
+        position: relative;
+        transition: color 0.25s;
+        
+    }
+    
+    .link:hover{
+        color: black;
+    }
+    .link::after{
+        position: absolute;
+        content: "";
+        inset: 0;
+        background-color: #fefefe;
+        scale: 1 0;
+        z-index: -1;
+        transition: 0.45s;
+        border-radius:15% ;
+    }
+    .link:hover::after{
+        scale: 1 1;
+    }
+    #d1{
+        float: left;
+    
+    }
 
-.link:hover{
-    color: black;
 }
-.link::after{
-    position: absolute;
-    content: "";
-    inset: 0;
-    background-color: #fefefe;
-    scale: 1 0;
-    z-index: -1;
-    transition: 0.45s;
-    border-radius:15% ;
+@media (min-width: 480.1px) and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        margin-left:2px;
+    }
+    
+    body{
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.7;
+        background-size: cover;
+        background-image: url("back.jpg");
+        overflow: scroll;
+        background-repeat: no-repeat;
+    }
+    aside img {margin-left: 5%;
+        margin-top: -55%;
+        left: 0;
+        height:180px;
+        width:180px;
+    }
+    html, body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        flex: 1;
+        display: flex;
+        flex-direction:column;
+        justify-content: center; /* Centre verticalement */
+        align-items: flex-start; /* Garde l'image à gauche */
+        padding: 20px;
+      
+    }
+    
+    
+    .content span {
+        margin-left: 19%;
+        font-size: 15px;
+        color: aqua; /* Applique la couleur aqua au texte "Bac" */
+        font-weight: bold; /* Optionnel : rend le texte plus visible */
+    }
+    #eee , #zzz {
+        margin-top: -1%;
+    }
+    
+    p{
+        
+        color: aqua;
+    }
+    #eee{
+        color: hsl(332, 96%, 51%);
+        font-size: 14px;
+        margin-left: 13%;
+        position: absolute;
+        padding-top:20px;
+    
+    }
+    #zzz{
+        font-size: 18px;
+        margin-left: 11%;
+        position: absolute;
+        padding-top:21px;
+    
+    }
+       
+    header{
+        height: 45px;
+        margin: 0;
+        padding: 0;
+        color: aqua;
+        text-align: center;
+        border-bottom: 3px solid hsl(332, 96%, 51%);
+        border-radius: 15%;
+        font-size: 25px;
+        
+    }
+    header span{
+        color: hsl(332, 96%, 51%) ;
+    }
+    
+    h1{
+        font-size: 25px;
+    }
+    span{
+         font-size: 20px;
+    }
+    h1 , span li{
+        list-style: none;
+    }
+    #d1 span , #d1 ul{
+        font-size: 15px;
+    
+    }
+    div ul , div li{
+        
+        font-size: 15px;
+    }
+    
+    footer {
+        background: #222;
+        color: aqua;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: hsl(332, 96%, 51%);
+    }
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+    
+    #p1{
+      padding-top: 20px;
+      color: #fefefe;
+      font-size: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    
+    nav{
+        
+        display: flex;
+        border-bottom: 2px solid rgb(11, 226, 255);
+        border-radius: 15%;
+        position: relative;
+        width: 100%;
+        
+    }
+    nav ul{
+        margin-top:2%;
+        margin-bottom: 5px;
+        display: flex;
+        list-style: none;
+        
+    }
+    
+    .link{
+        text-decoration: none;
+        padding: 1rem 2rem;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fefefe;
+        position: relative;
+        transition: color 0.25s;
+        
+    }
+    
+    .link:hover{
+        color: black;
+    }
+    .link::after{
+        position: absolute;
+        content: "";
+        inset: 0;
+        background-color: #fefefe;
+        scale: 1 0;
+        z-index: -1;
+        transition: 0.45s;
+        border-radius:15% ;
+    }
+    .link:hover::after{
+        scale: 1 1;
+    }
+    #d1{
+        margin-left: 40%;
+    
+    }
 }
-.link:hover::after{
-    scale: 1 1;
+@media (min-width: 768.1px) and (max-width: 1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        margin-left:2px;
+    }
+    
+    body{
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.7;
+        background-size: cover;
+        background-image: url("back.jpg");
+        overflow: scroll;
+        background-repeat: no-repeat;
+    }
+    aside img {margin-left: 5%;
+        margin-top: -57%;
+        left: 0;
+        height:250px;
+        width:250px;
+    }
+    html, body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        flex: 1;
+        display: flex;
+        flex-direction:column;
+        justify-content: center; /* Centre verticalement */
+        align-items: flex-start; /* Garde l'image à gauche */
+        padding: 20px;
+      
+    }
+    
+    
+    .content span {
+        margin-left: 19%;
+        font-size: 15px;
+        color: aqua; /* Applique la couleur aqua au texte "Bac" */
+        font-weight: bold; /* Optionnel : rend le texte plus visible */
+    }
+    
+    
+    p{
+        
+        color: aqua;
+    }
+    #eee{
+        margin-top: 1%;
+        color: hsl(332, 96%, 51%);
+        font-size: 23px;
+        margin-left: 12.25%;
+        position: absolute;
+        padding-top:20px;
+    
+    }
+    #zzz{margin-top: -1%;
+        font-size: 30px;
+        margin-left: 9.75%;
+        position: absolute;
+        padding-top:21px;
+    
+    }
+       
+    header{
+        height: 45px;
+        margin: 0;
+        padding: 0;
+        color: aqua;
+        text-align: center;
+        border-bottom: 3px solid hsl(332, 96%, 51%);
+        border-radius: 15%;
+        font-size: 25px;
+        
+    }
+    header span{
+        color: hsl(332, 96%, 51%) ;
+    }
+    
+    h1{
+        font-size: 40px;
+    }
+    span{
+         font-size: 20px;
+    }
+    h1 , span li{
+        list-style: none;
+    }
+    #d1 span , #d1 ul{
+        font-size: 22px;
+    
+    }
+    div ul , div li{
+        
+        font-size: 22px;
+    }
+    
+    footer {
+        background: #222;
+        color: aqua;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: hsl(332, 96%, 51%);
+    }
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+    
+    #p1{
+      padding-top: 20px;
+      color: #fefefe;
+      font-size: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    
+    nav{
+        
+        display: flex;
+        border-bottom: 2px solid rgb(11, 226, 255);
+        border-radius: 15%;
+        position: relative;
+        width: 100%;
+        
+    }
+    nav ul{
+        margin-top:2%;
+        margin-bottom: 5px;
+        display: flex;
+        list-style: none;
+        
+    }
+    
+    .link{
+        text-decoration: none;
+        padding: 2rem 3.5rem;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fefefe;
+        position: relative;
+        transition: color 0.25s;
+        
+    }
+    
+    .link:hover{
+        color: black;
+    }
+    .link::after{
+        position: absolute;
+        content: "";
+        inset: 0;
+        background-color: #fefefe;
+        scale: 1 0;
+        z-index: -1;
+        transition: 0.45s;
+        border-radius:15% ;
+    }
+    .link:hover::after{
+        scale: 1 1;
+    }
+    #d1{
+        margin-left: 40%;
+    
+    }
 }
-#d1{
-    float: left;
-
-}
-*{
-	max-width: 600px;
-}
-
-
