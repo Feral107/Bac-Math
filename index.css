@@ -14,7 +14,7 @@ body{
 }
 aside img {
 	margin-left: 30%;
-    margin-top: -40%;
+    margin-top: -33%;
     left: 0;
 	height:150px;
 	width:150px;
@@ -49,13 +49,13 @@ p{
 #eee{
     color: hsl(332, 96%, 51%);
     font-size: 14px;
-    margin-left: 22%;
+    margin-left: 24%;
     position: absolute;
     padding-top:20px;
 
 }
 #zzz{
-    margin-left: 21%;
+    margin-left: 26%;
     font-size: 18px;
     position: absolute;
     padding-top:20px;
