@@ -14,7 +14,7 @@ body{
 }
 aside img {
 	margin-left: 30%;
-    margin-top: -20%;
+    margin-top: -40%;
     left: 0;
 	height:150px;
 	width:150px;
@@ -49,14 +49,14 @@ p{
 #eee{
     color: hsl(332, 96%, 51%);
     font-size: 14px;
-    margin-left: 30%;
+    margin-left: 22%;
     position: absolute;
     padding-top:20px;
 
 }
 #zzz{
     margin-left: 30.5%;
-    font-size: 18px;
+    font-size: 21px;
     position: absolute;
     padding-top:20px;
 
@@ -81,7 +81,7 @@ p{
 }
    
 header{
-	height:35px;
+	height:60px;
     color: aqua;
     text-align: center;
     border-bottom: 3px solid hsl(332, 96%, 51%);
@@ -101,8 +101,12 @@ span{
 h1 , span li{
     list-style: none;
 }
+#d1 span , #d1 ul{
+    font-size: 15px;
+
+}
 div ul , div li{
-    font-size: 18px;
+    font-size: 15px;
 }
 
 footer {
