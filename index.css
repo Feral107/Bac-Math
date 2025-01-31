@@ -41,7 +41,6 @@ html, body {
 }
 #eee , #zzz {
     margin-top: -1%;
-    margin-left: 19%;
 }
 
 p{
@@ -50,14 +49,15 @@ p{
 #eee{
     color: hsl(332, 96%, 51%);
     font-size: 11px;
+    margin-left: 19.75%;
     position: absolute;
     padding-top:20px;
 
 }
 #zzz{
-    font-size: 19px;
+    margin-left: 19%;
+    font-size: 15px;
     position: absolute;
-    left: 0;
     padding-top:20px;
 
 }
