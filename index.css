@@ -49,13 +49,13 @@ p{
 }
 #eee{
     color: hsl(332, 96%, 51%);
-    font-size: 7px;
+    font-size: 11px;
     position: absolute;
     padding-top:20px;
 
 }
 #zzz{
-    font-size: 15px;
+    font-size: 19px;
     position: absolute;
     left: 0;
     padding-top:20px;
@@ -155,7 +155,7 @@ nav ul{
 
 .link{
     text-decoration: none;
-    padding: 0.1rem 0.1rem;
+    padding: 0.1rem 0.2rem;
     font-size: 11px;
     font-weight: 600;
     color: #fefefe;
