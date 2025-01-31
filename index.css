@@ -13,9 +13,10 @@ body{
     background-repeat: no-repeat;
 }
 aside img {
+    margin-top: -25%;
     left: 0;
-	height:50px;
-	width:50px;
+	height:150px;
+	width:150px;
 }
 html, body {
     height: 100%;
@@ -32,16 +33,13 @@ html, body {
   
 }
 
-.content img {
-/* Ajuste la taille de l'image */
-    height: auto;
-}
+
 .content span {
     color: aqua; /* Applique la couleur aqua au texte "Bac" */
     font-weight: bold; /* Optionnel : rend le texte plus visible */
 }
 #eee , #zzz {
-    margin-left: 6%;
+    margin-left: 4%;
 }
 
 p{
@@ -49,13 +47,13 @@ p{
 }
 #eee{
     color: hsl(332, 96%, 51%);
-    font-size: 22px;
+    font-size: 7px;
     position: absolute;
     padding-top:20px;
 
 }
 #zzz{
-    font-size: 30px;
+    font-size: 15px;
     position: absolute;
     left: 0;
     padding-top:20px;
@@ -138,7 +136,7 @@ footer {
 
 
 nav{
-    max-width: fit-content;
+    max-width:600px;
     display: flex;
     border-bottom: 2px solid rgb(11, 226, 255);
     border-radius: 15%;
@@ -150,11 +148,12 @@ nav ul{
 	margin-top:2%;
     display: flex;
     list-style: none;
-	font-size:5px;;
+	
 }
+
 .link{
     text-decoration: none;
-    padding: 0.5rem 0.75rem;
+    padding: 0.25rem 0.50rem;
     font-size: 17px;
     font-weight: 600;
     color: #fefefe;
@@ -186,6 +185,5 @@ nav ul{
 *{
 	max-width: 600px;
 }
-
 
 
