@@ -147,10 +147,10 @@ nav{
 	
 }
 nav ul{
-	margin-top:1%
+	margin-top:2%
     display: flex;
     list-style: none;
-	font-size:10px;;
+	font-size:5px;;
 }
 .link{
     text-decoration: none;
