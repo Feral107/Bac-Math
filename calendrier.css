@@ -46,8 +46,8 @@
         list-style: none;
     }
     img{
-        margin-top: 3%;
-        margin-left: 1%;
+        margin-top: 8%;
+        margin-left: 5%;
         height: 20%;
     }
     footer {
@@ -93,7 +93,7 @@
     
     .link{
         text-decoration: none;
-        padding: 0rem 0.1rem;
+        padding: 0rem 0.5rem;
         font-size: 10px;
         font-weight: 600;
         color: #fefefe;
