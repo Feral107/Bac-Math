@@ -15,7 +15,7 @@
         background-repeat: no-repeat;
     }
     aside img {margin-left: 30%;
-        margin-top: -37%;
+        margin-top: -30%;
         left: 0;
         height:150px;
         width:150px;
@@ -148,7 +148,7 @@
     
     .link{
         text-decoration: none;
-        padding: 0rem 0.1rem;
+        padding: 0rem 0.5rem;
         font-size: 10px;
         font-weight: 600;
         color: #fefefe;
